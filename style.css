@@ -1,4 +1,74 @@
-.nav-item {
-    color:green;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+height: 80px;
+width: 100vw;
+position: fixed;
+}
+.nav-items {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between; 
+    column-gap: 3rem; 
+    color: black;
+}
+
+.text-black {
+    color: black;
+}
+
+#hero {
+    background-image: url(./images/hero\ bg.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#hero-title {
+    color: white;
+    font-size: 6rem;
+}
+
+#hero-button {
+  background-color: #01BA5B;  
+  color: white;
+  font-size: 2rem;
+  border-radius: 10px;
+  border: none;
+}
+
+#choose-us {
+    height: 100vh;
+    width: 50vw;
+    background-image: url(./images/why\ choose.jpg);
+    background-repeat: no-repeat;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.choose-us-items {
 
 }
