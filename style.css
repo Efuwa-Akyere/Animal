@@ -1,58 +1,59 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 nav {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-background-color: white;
-height: 80px;
-width: 100vw;
-position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  height: 80px;
+  width: 100vw;
+  position: fixed;
 }
 .nav-items {
-    font-size: 15px;
-    display: flex;
-    flex-direction: row;
-     justify-content: space-between; 
-    column-gap: 3rem; 
-    color: black;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 3rem;
+  color: black;
 }
 
 .text-black {
-    color: black;
+  color: green;
+  text-decoration: none;
 }
 
 #hero {
-    background-image: url(./img/hero\ bg.jpg);
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: url(./img/hero\ bg.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .overlay {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 #hero-title {
-    color: white;
-    font-size: 6rem;
+  color: green;
+  font-size: 4rem;
 }
 
 #hero-button {
-  background-color: #01BA5B;  
+  background-color: green;
   color: white;
   font-size: 2rem;
   border-radius: 10px;
@@ -60,14 +61,14 @@ position: fixed;
 }
 
 .dog-pic {
-    height: 100vh;
-    width: 40vw;
-    background-image: url(./img/whychoose.jpg);
-    object-fit:fill;
-    object-position: center;
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
+  height: 100vh;
+  width: 40vw;
+  background-image: url(./img/whychoose.jpg);
+  object-fit: fill;
+  object-position: center;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* .dog-pic {
@@ -79,16 +80,99 @@ position: fixed;
     background-repeat: no-repe at;
      
 } */
-  
 
 .choose-us-items {
-    display: flex;
-    flex-direction: row; 
-    height: 100vh;
-    width: 100vw; 
-    
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
 }
 
-.choose-us-text {;
-width:60vw;
+/* .choose-us-text {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 60px;
+  column-width: 100px;
+} */
+
+.care-customer-edit {
+    row-gap: 60px;
+}
+ .text-section {
+    width: 100%;
+    font-size: 50px;
+    padding: 80px 40px;
+ }
+
+.section-container {
+    width: 100%;
+    height: 100%;
+}
+
+.text-edit {
+    height: 50px;
+    width: 200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.fa-sharp {
+    font-size: 40px;
+    color: #01ba5b;
+}
+
+.fa-solid {
+    font-size: 40px;
+    color: #01ba5b; 
+}
+
+.green-bar {
+    height: 150px;
+    width: 100%;
+    background-color: #01ba5b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+
+}
+.spans {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    margin: 25px;
+    font-size: 50px;
+    color: white;
+}
+
+.small-text {
+    font-size:20px;
+}
+
+.footer-edit {
+    display: flex;flex-direction:row;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footer-text {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright {
+
 }
