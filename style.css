@@ -169,8 +169,34 @@ nav {
 
 
 .footer {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  padding-left: 100px;
+}
+
+.text-one {
+  margin-left: 100px;
+}
+
+.text-one-one {
+  margin-bottom: 50px;
+}
+
+.anchor {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width: 100vw;
+  gap: 10px;
+}
+
+.text-three {
+  margin-left: 100px;
+}
+
+.about-all {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
